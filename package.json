@@ -1,0 +1,23 @@
+{
+  "name": "ripple-sign-and-verify",
+  "version": "0.1.0",
+  "description": "Sign and verify messages using elliptic-curve cryptography",
+  "main": "build/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test" : "npm run build && mocha -R spec test/",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenzeiler/ripple-sign-and-verify"
+  },
+  "author": "Steven Zeiler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenzeiler/ripple-sign-and-verify/issues"
+  },
+  "homepage": "https://github.com/stevenzeiler/ripple-sign-and-verify"
+}
